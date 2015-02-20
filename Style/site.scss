@@ -105,7 +105,7 @@ $darkGray: #333;
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 10px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -113,6 +113,11 @@ $darkGray: #333;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.feature1, .feature2, .feature3 {
+  height: 250px;
+  width: 250px;
 }
 
 
@@ -141,6 +146,6 @@ $darkGray: #333;
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+
   }
 }
