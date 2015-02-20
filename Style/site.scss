@@ -9,12 +9,31 @@ body {
 
 /* COLORS */
 $brown: #463320;
-$sandyBrown: #937351;
+$sandyBrown: rgba(147,115,81,.50);
 $greenAccent: #639A68;
-
+$transparentWhite: rgba(204,204,204,.5);
+$darkGray: #333;
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+
+/* NAVBAR Style Scheme */
+.navbar {
+  background: $transparentWhite;
+}
+.navbar, .navbar-toggle {
+  border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: $darkGray;
+}
+.navbar-nav {
+  font-family: "Lato", sans-serif;
+  font-variant: small-caps;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
@@ -38,33 +57,12 @@ $greenAccent: #639A68;
   width: auto;
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
+/* CAROUSEL */
+#carouselMain .item img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -116,17 +114,6 @@ $greenAccent: #639A68;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
   .featurette-heading {
     font-size: 50px;
   }
