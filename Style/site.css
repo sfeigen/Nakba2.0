@@ -53,19 +53,32 @@ body {
 #carouselMain {
   margin-bottom: 2.5em; }
 
-/* MARKETING CONTENT
+/* Template CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.tempView .col-lg-4 {
   margin-bottom: 20px;
   text-align: center; }
 
-.marketing h2 {
+.tempView h2 {
   font-weight: normal; }
 
-.marketing .col-lg-4 p {
+.tempView .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px; }
+
+/* Img Colors */
+.img-circle-about {
+  background-color: #639a68; }
+
+.img-circle-mission {
+  background-color: rgba(147, 115, 81, 0.5); }
+
+.img-circle-gallery {
+  background-color: #aa8395; }
+
+.img-circle-contact {
+  background-color: #8398aa; }
 
 /* Featurettes
 ------------------------- */

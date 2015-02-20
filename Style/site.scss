@@ -11,6 +11,8 @@ body {
 $brown: #463320;
 $sandyBrown: rgba(147,115,81,.50);
 $greenAccent: #639A68;
+$purple: #aa8395;
+$blue: #8398aa;
 $transparentWhite: rgba(204,204,204,.5);
 $darkGray: #333;
 
@@ -68,20 +70,34 @@ $darkGray: #333;
   margin-bottom: 2.5em;
 }
 
-/* MARKETING CONTENT
+/* Template CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.tempView .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
+.tempView h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.tempView .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+/* Img Colors */
+.img-circle-about {
+  background-color: $greenAccent;
+}
+.img-circle-mission {
+  background-color: $sandyBrown;
+}
+.img-circle-gallery {
+  background-color: $purple;
+}
+.img-circle-contact {
+  background-color: $blue;
 }
 
 
