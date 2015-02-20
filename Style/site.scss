@@ -13,7 +13,7 @@ $sandyBrown: rgba(147,115,81,.50);
 $greenAccent: #639A68;
 $purple: #aa8395;
 $blue: #8398aa;
-$transparentWhite: rgba(204,204,204,.5);
+$transparentWhite: rgba(204,204,204,.8);
 $darkGray: #333;
 
 /* CUSTOMIZE THE NAVBAR
@@ -34,6 +34,9 @@ $darkGray: #333;
   font-variant: small-caps;
   font-weight: 800;
   font-size: 1.5em;
+}
+.navbar-inverse, .navbar-collapse {
+  border: none;
 }
 
 
@@ -68,6 +71,17 @@ $darkGray: #333;
 
 #carouselMain {
   margin-bottom: 2.5em;
+}
+
+.firstImage, .secondImage, .thirdImage {
+  position: absolute;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  margin-left: 33%;
+  top: 45%;
+  font-size: 1.5em;
+  color: #222;
+  line-height: 1.5em;
 }
 
 /* Template CONTENT

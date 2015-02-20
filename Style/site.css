@@ -10,7 +10,7 @@ body {
 -------------------------------------------------- */
 /* NAVBAR Style Scheme */
 .navbar {
-  background: rgba(204, 204, 204, 0.5); }
+  background: rgba(204, 204, 204, 0.8); }
 
 .navbar, .navbar-toggle {
   border: none; }
@@ -23,6 +23,9 @@ body {
   font-variant: small-caps;
   font-weight: 800;
   font-size: 1.5em; }
+
+.navbar-inverse, .navbar-collapse {
+  border: none; }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
@@ -52,6 +55,16 @@ body {
 
 #carouselMain {
   margin-bottom: 2.5em; }
+
+.firstImage, .secondImage, .thirdImage {
+  position: absolute;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  margin-left: 33%;
+  top: 45%;
+  font-size: 1.5em;
+  color: #222;
+  line-height: 1.5em; }
 
 /* Template CONTENT
 -------------------------------------------------- */
