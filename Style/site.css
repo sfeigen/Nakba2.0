@@ -22,7 +22,7 @@ body {
   font-family: "Lato", sans-serif;
   font-variant: small-caps;
   font-weight: 800;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .navbar-inverse, .navbar-collapse {
   border: none; }
@@ -60,7 +60,7 @@ body {
   position: absolute;
   text-align: center;
   font-family: "Merriweather", serif;
-  margin-left: 33%;
+  margin-left: 27%;
   top: 45%;
   font-size: 1.5em;
   color: #222;
@@ -127,5 +127,10 @@ body {
   /* The navbar becomes detached from the top, so we round the corners */
   .featurette-heading {
     font-size: 50px; } }
+@media (max-width: 620px) {
+  .firstImage, .secondImage, .thirdImage {
+    margin-left: 20%;
+    font-size: 1em;
+    top: 33%; } }
 
 /*# sourceMappingURL=site.css.map */
