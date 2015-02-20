@@ -25,5 +25,9 @@
 			url: "/mission",
 			templateUrl: "Partials/mission.html" 
 		})
+		.state('home', {
+			url: "/home",
+			templateUrl: "Partials/home.html"
+		})
 	});
 })();

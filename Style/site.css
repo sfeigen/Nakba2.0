@@ -50,6 +50,9 @@ body {
   width: 100%;
   height: auto; }
 
+#carouselMain {
+  margin-bottom: 2.5em; }
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
