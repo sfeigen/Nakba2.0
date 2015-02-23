@@ -1,20 +1,19 @@
-    		<h2>Online Gallery</h2>
     		<!-- Jssor Slider Begin -->
     		<!-- You can move inline styles to css file or css block. -->
-    		<div id="slider1_container" style="position: relative; width: 600px; height: 500px; background-color: #000; overflow: hidden; ">
+    		<div id="slider1_container" style="position: relative; width: 800px; height: 500px; background-color: #000; overflow: hidden; ">
 
     			<!-- Loading Screen -->
     			<div u="loading" style="position: absolute; top: 0px; left: 0px;">
     				<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
     				background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
     			</div>
-    			<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+    			<div style="position: absolute; display: block; background: url(Assets/Images/loading.gif) no-repeat center center;
     			top: 0px; left: 0px;width: 100%;height:100%;">
     		</div>
     	</div>
 
     	<!-- Slides Container -->
-    	<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 500px;
+    	<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 500px;
     	overflow: hidden;">
     	<div>
     		<a u=image href="#"><img src="Assets/Gallery/1.jpg" /></a>
@@ -136,7 +135,7 @@ jQuery(document).ready(function ($) {
                 $FillMode: 1,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
                 $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
                 $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $AutoPlayInterval: 3000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
                 $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
                     $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
                     $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
