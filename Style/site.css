@@ -61,11 +61,15 @@ body {
   text-align: center;
   font-family: "Merriweather", serif;
   margin-left: 27%;
-  top: 45%;
   font-size: 1.5em;
   color: #222;
   line-height: 1.5em; }
+.firstImage, .thirdImage {
+  top: 45%;}
 
+.secondImage {
+  top: 25%;
+}
 /* Template CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
@@ -129,9 +133,19 @@ body {
   .featurette-heading {
     font-size: 30px; } }
 @media (max-width: 620px) {
+  
   .firstImage, .secondImage, .thirdImage {
     margin-left: 20%;
-    font-size: 1em;
-    top: 33%; } }
+    font-size: 1em; 
+  } 
+  .firstImage, .thirdImage {
+    top: 33%;
+  }
+  .secondImage {
+    top: 10%;
+    font-size: .6em;
+  }
+
+  }
 
 /*# sourceMappingURL=site.css.map */
