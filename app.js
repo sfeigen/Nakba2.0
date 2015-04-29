@@ -25,6 +25,10 @@
 			url: "/mission",
 			templateUrl: "Partials/mission.html" 
 		})
+		.state('exhibit', {
+			url: "/exhibit",
+			templateUrl: "Partials/exhibit.html" 
+		})
 		.state('home', {
 			url: "/home",
 			templateUrl: "Partials/home.html"
