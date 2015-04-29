@@ -78,7 +78,7 @@ $darkGray: #333;
   text-align: center;
   font-family: "Merriweather", serif;
   margin-left: 27%;
-  top: 45%;
+  top: 25%;
   font-size: 1.5em;
   color: #222;
   line-height: 1.5em;
@@ -117,6 +117,30 @@ $darkGray: #333;
 
 /* Featurettes
 ------------------------- */
+
+
+.responsive-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 30px; 
+  height: 0; overflow: 
+  hidden; 
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.responsive-container iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
+
+.featuretteMargin {
+  margin-left: 2em;
+}
 
 .featurette-divider {
   margin: 10px 0; /* Space out the Bootstrap <hr> more */
@@ -161,8 +185,8 @@ $darkGray: #333;
 
 @media (max-width: 620px) {
   .firstImage, .secondImage, .thirdImage {
-      margin-left: 20%;
-      font-size: 1em;
-      top: 33%;
+    margin-left: 20%;
+    font-size: 1em;
+    top: 33%;
   }
 }
