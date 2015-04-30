@@ -113,7 +113,8 @@ body {
   height: 100%; }
 
 .featuretteMargin {
-  margin-left: 2em; }
+  margin-left: 1em;
+  margin-right: 1em; }
 
 .featurette-divider {
   margin: 10px 0;
