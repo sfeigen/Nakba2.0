@@ -18,8 +18,12 @@
 			templateUrl: "Partials/gallery.html"
 		})
 		.state('support', {
-			url: "/support",
+			url: "/sponsors",
 			templateUrl: "Partials/support.html"
+		})
+		.state('donate', {
+			url: "/donate",
+			templateUrl: "Partials/donate.html"
 		})
 		.state('mission', {
 			url: "/mission",
