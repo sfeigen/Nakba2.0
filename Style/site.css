@@ -97,7 +97,7 @@ body {
 ------------------------- */
 .responsive-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding: 10%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -127,9 +127,16 @@ body {
   letter-spacing: -1px;
   font-size: 30px; }
 
-.feature1, .feature2, .feature3 {
+.feature1, .feature2 {
   height: 250px;
   width: 250px; }
+
+.featureBreak {
+  float: left; }
+
+.clearClass {
+  clear: both;
+  padding-top: 1em; }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
